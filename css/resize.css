@@ -1,0 +1,21 @@
+
+
+/*tablets */
+@media only screen and (min-width:700px){
+  header h1{font-size: 2.85rem;}
+  header h2{font-size: 1.5rem;}
+  header img{height:90px;}
+    .medium-6{
+      flex-basis:50%;
+    }
+    }
+
+    /* desktop*/
+    @media only screen and (min-width:924px){
+        .large-3{
+           flex-basis:25%;
+        }  
+      }
+  
+    
+    
