@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(210, 225, 225);
+}
+body{
+    Font-Family: 'Playfair Display', Serif;
+    Font-Size: 20px;
+    Font-Family: 'Source Sans Pro', Sans-Serif;
+    Font-Size: 16px;
+    margin:70px;
+    padding: 25px 50px 75px;
+    border:2px solid rgb(49, 44, 44);
+    border-radius: 5px; 
+}
+#desc{
+    color: black;
+    font-size: medium;
+}
+input[type=text],[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+
+.form-group{
+    margin:0 auto 1rem auto;
+     }
+
+  .submit-button{   
+    align-items: center;
+    background-color:green;
+    font-size:20px;
+    border-radius: 5px;
+    }

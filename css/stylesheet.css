@@ -23,6 +23,7 @@ footer img{
 }
 footer p{
     font-size:medium;
+    color: black;
 }
 footer li{
     list-style-type: none;
@@ -41,6 +42,7 @@ footer li{
 .column{
     padding:0 2vw;
     margin:0 0 .75rem 0;
+
 }
 .small-12{
     flex-basis:100%;
@@ -54,49 +56,58 @@ header img{
     height: 60px;
     padding-right: 10px;
 }
-header h1,header h2{
+header h1,p{
     margin:0;
     color:#fff;
     font-weight: 300;
     font-style: italic;
 }
 header h1{
-    padding:.5rem 0 0 0;
+    padding:.5rem 0 0 0 ;
     font-size: 1.95rem;
 }
-header h2{
+/*header h2{
     padding: .2rem 0 0 0;
     font-family: 1.05rem;
-}
+}*/
 /* Style the navigation menu */
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-    position: relative;
+nav {
+   display:flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+   padding:15px;
+   font-size: 20px; 
   }
-  
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .topnav #myLinks {
-    display: none;
+  .topnav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
   }
   
   /* Style navigation menu links */
-  .topnav a {
+  .topnav li a {
+    display: inline-block;
     color: white;
-    padding: 14px 16px;
+    font-Family: 'Source Sans Pro', Sans-Serif;
+    padding: 12px 20px;
     text-decoration: none;
-    font-size: 17px;
-    display: block;
+        
+  }
+  .hamburger{
+    background-color: transparent;
+    border:0;
+    color:#fff;
+    display:none;
+    cursor:pointer;
+    font-size:20px;
+  }
+  .hamburger:focus{
+    outline: none;
   }
   
-  /* Style the hamburger menu */
-  .topnav a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
   
   /* Add a grey background color on mouse-over */
   .topnav a:hover {
@@ -104,8 +115,4 @@ header h2{
     color: black;
   }
   
-  /* Style the active link (or home/logo) */
-  .active {
-    background-color:#003049;
-    color: white;
-  }
+ 
