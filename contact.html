@@ -7,19 +7,40 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/contact.css" rel="stylesheet">
+    <link href="css/collection.css" rel="stylesheet">
     <link href="css/stylesheet.css" rel="stylesheet">
     <link href="css/resize.css" rel="stylesheet">
     <title>Contact | Krishna Textiles</title>
 </head>
 <body>
+    <header>  
+        <!--<div class="row limited">  -->     
+             <section class="column small-12 medium-6 large-3">
+                 <nav>
+                 <img src="images/Krishna Textiles.png" alt="Textile logo"  >
+                 <h1>Krishna Textiles</h1>
+                 <p>Trendy Collections!</p>            
+                 <button class="hamburger" id="hamburger">
+                     <i class='fa fa-bars'></i>
+                 </button>
+                 <ul class="topnav" id="topnav">
+                     <li><a href=index.html>Home</a></li>
+                     <li><a href=collection.html>Collections</a></li>
+                     <li><a href=contact.html>Contact</a></li>
+                 </ul>
+             </nav>
+             </section>
+     </div>       
+     </header>
+     <main>
     <div class="container column small-12 medium-6 large-3">
     <h2 id="title">Contact Us</h2><br>
     <p id="desc">Tell me about your experience with us </p><br>
     <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" >  
         <label for="name">Enter name</label><br>  
-        <input type="text" id="name" name="name"><br>  
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br>  
         <label for="email">Email </label>  <br>
-         <input type="email" id="email" name="email" required> <br>
+         <input type="email" id="email" name="email" placeholder="email id" required> <br>
          <div class="form-group">
             <p id="desc">Any comments or suggestions?</p><br>
             <textarea id="comment" name="comment" placeholder="Enter your comments here..." class="input-textarea"row="2"colspan="10"></textarea></div>
@@ -27,8 +48,8 @@
             <button id="submit" type="submit" class="submit-button">Submit
             </button>
           </div>
-          </form>  
-    </form>  
+          </form> 
+        </main>  
     <script src="function.js"></script>    
   </body>
 </html>

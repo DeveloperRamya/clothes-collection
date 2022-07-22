@@ -1,10 +1,15 @@
-
-
 /*tablets */
 @media only screen and (max-width:700px){
-  header h1{font-size: 2.85rem;}
-  header p{font-size: 1.5rem;}
-  header img{height:90px;}
+  header h1{    
+    font-size: 2.85rem;
+  }
+  header-img{
+    font-size: 1.5rem;
+  }
+  header img{
+
+    height:100px;
+  }
   .topnav{
     display: none;
     flex-direction: column;
@@ -26,8 +31,7 @@
 
     /* desktop*/
     @media only screen and (min-width:924px){
-      
-        .large-3{
+              .large-3{        
            flex-basis:25%;
         }  
       }
