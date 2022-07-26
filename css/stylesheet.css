@@ -22,7 +22,7 @@ footer h2{
 footer img{
     -webkit-box-reflect: right;
     width:auto;
-    height:80px;
+    height:60px;
 }
 footer p{
     font-size:medium;
@@ -118,5 +118,44 @@ nav {
     background-color: #ddd;
     color: black;
   }
+  /*tablets */
+@media only screen and (max-width:700px){
+    header h1{    
+      font-size: 2.85rem;
+      color:black;
+    }
+    header img{
+      font-size: 1.5rem;
+      height:100px;
+    }
+    .topnav{
+      display: none;
+      flex-direction: column;
+      width:100%;
+    }
+    .topnav.show{
+      display: flex;
+    }
+    .topnav li a{
+      padding:10px;
+    }
+    .hamburger{
+      display: block;
+    }
+      .medium-6{
+        flex-basis:50%;
+      }
+      }
+  
+      /* desktop*/
+      @media only screen and (min-width:924px){
+                .large-3{        
+             flex-basis:25%;
+             color: yellow;
+          }  
+          footer p{
+            color: yellow;
+          }
+        }
   
  
