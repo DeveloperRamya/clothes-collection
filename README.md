@@ -9,3 +9,4 @@
 -Readme
 -Commits
 ##Met all this Requirements
+[Download this Project:](git clone https://github.com/DeveloperRamya/clothes-collection.git)
